@@ -1,7 +1,7 @@
 var imageSelection ={
-    "Stone":"images/Image3.png",
-    "Paper":"images/Image1.png",
-    "Scissors":"images/Image2.png"
+    "Stone":"Image3.png",
+    "Paper":"Image1.png",
+    "Scissors":"Image2.png"
 };
 
 function StartGame(){
