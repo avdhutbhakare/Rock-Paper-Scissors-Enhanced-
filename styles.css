@@ -1,0 +1,59 @@
+/* General Reset */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #eccaca;
+    /* Light background for better contrast */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* Full height for centering */
+}
+
+/* Container styling */
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Title styling */
+.container h1 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Reaction container for players */
+.reaction {
+    display: inline-block;
+    /* To position them side by side */
+    margin: 0 20px;
+    /* Space between Player 1 and Player 2 */
+    text-align: center;
+    /* Center the content inside each player section */
+}
+
+/* Player label styling */
+.reaction p {
+    font-size: 1.2rem;
+    color: #555;
+    margin: 10px 0;
+}
+
+/* Player image styling */
+.img {
+    max-width: 150px;
+    /* Constrain the width of the image */
+    height: auto;
+    /* Maintain aspect ratio */
+    border: 2px solid #000;
+    /* Optional: border around the image */
+    border-radius: 8px;
+    /* Optional: rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    /* Optional: shadow for better aesthetics */
+    transition: transform 0.2s;
+    /* Optional: Add hover effect */
+}
+
