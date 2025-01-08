@@ -1,59 +1,93 @@
-/* General Reset */
 body {
-    margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #eccaca;
-    /* Light background for better contrast */
-    display: flex;
+    text-align: center;
+    display: flexbox;
     justify-content: center;
-    align-items: center;
+    background-color: #f4f4f4;
     height: 100vh;
-    /* Full height for centering */
 }
 
-/* Container styling */
 .container {
-    text-align: center;
+    background-color: white;
+    border: 3px solid;
+    width: 40px
+    border-radius: 8px;
     padding: 20px;
 }
 
-/* Title styling */
-.container h1 {
-    font-size: 2rem;
-    color: #333;
+h1 {
+    display: inline-block;
+    text-shadow: 2px 2px 5px #87a936;
+    padding: 10px;
+    border: 1px solid;
+    border-width: medium;
+    border-color: black;
+    color: #6dd63f;
+}
+
+.reaction {
     margin-bottom: 20px;
 }
 
-/* Reaction container for players */
-.reaction {
-    display: inline-block;
-    /* To position them side by side */
-    margin: 0 20px;
-    /* Space between Player 1 and Player 2 */
+select {
+    font-size: 1rem;
+    border: 2px solid;
     text-align: center;
-    /* Center the content inside each player section */
+    padding: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 30%;
+    margin-bottom: 15px;
 }
 
-/* Player label styling */
+select:hover{
+    background-color: #6dd63f;
+}
+
+
 .reaction p {
-    font-size: 1.2rem;
-    color: #555;
-    margin: 10px 0;
+    display: block;
+    margin: 10px auto;
+    width: fit-content;
+    padding: 4px;
+    border: 2px solid #0f100f;
+    color: #5fd941;
+    font-size: larger;
+
 }
 
-/* Player image styling */
-.img {
-    max-width: 150px;
-    /* Constrain the width of the image */
-    height: auto;
-    /* Maintain aspect ratio */
-    border: 2px solid #000;
-    /* Optional: border around the image */
-    border-radius: 8px;
-    /* Optional: rounded corners */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    /* Optional: shadow for better aesthetics */
-    transition: transform 0.2s;
-    /* Optional: Add hover effect */
+img {
+    border: 2px solid;
+    margin-top: 1%;
+    border-radius: 5%;
+    width: 80px;
+    height: 80px;
+    
 }
+
+button {
+    padding: 10px 15px;
+    font-size: 1rem;
+    background-color: #5fd941;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 15%;
+
+}
+
+button:hover {
+    background-color: #45a049;
+    
+}
+
+Mobile Friendly 
+@media (max-width: 600px) {
+    .container {
+        width: 90%;
+    }
+} 
+
+
+
 
